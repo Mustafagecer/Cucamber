@@ -11,7 +11,7 @@ public class ConfigReader {
     //2-Bu classin amaci configration.propertiesdosyasini okumak
     // ve aradaki key ikililerini kullanarak istegimiz key e ait value bize getirmek
 
-static {
+    static {
     String dosyaYolu="configuration.properties";
 
     try {
