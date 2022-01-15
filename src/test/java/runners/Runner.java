@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml" },
         features = "src/test/resources/features",
         glue = "stepdefination",
-        tags = "@editor3" ,
+        tags = "@CH1" ,
 
         dryRun = false
         //dryRun=true dedigimizde testi calistirmadan bize eksik adimi verir

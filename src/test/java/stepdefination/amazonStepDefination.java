@@ -78,4 +78,9 @@ public class amazonStepDefination {
     public void sonucSayisiniYazdirir() {
         System.out.println(amazonPage.sonucYazisiElementi.getText());
     }
+
+    @Then("basligin {string} icerdigini test eder")
+    public void basliginIcerdiginiTestEder(String baslik) {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(baslik));
+    }
 }

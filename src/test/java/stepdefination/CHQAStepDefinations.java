@@ -35,4 +35,9 @@ public class CHQAStepDefinations {
         Assert.assertTrue(chqaPage.girisYapilamadiYazisiElementi.isDisplayed());
 
     }
+
+    @Then("sayfaya giris yaptigini kontrol eder")
+    public void sayfayaGirisYaptiginiKontrolEder() {
+        Assert.assertTrue(chqaPage.girisYapildiKontrolYazi.isEnabled());
+    }
 }
