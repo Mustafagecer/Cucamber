@@ -1,0 +1,588 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-16T10:02:46.447Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6003300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC01 amazon nutella arama",
+        "description": "",
+        "id": "us1001-amazon-arama;tc01-amazon-nutella-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 10800982200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15786005600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8003620900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "nutella icin arama yapar",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.nutella_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 719000500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sonucun nutella icerdigini test eder",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.sonucun_nutella_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10664582000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel1"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@nutella"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T10:03:32.497Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC02 amazon java arama",
+        "description": "",
+        "id": "us1001-amazon-arama;tc02-amazon-java-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 9385381900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7124999100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6394001500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "java icin arama yapar",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.javaIcinAramaYapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221002000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "sonucun java icerdigini test eder",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.sonucunJavaIcerdiginiTestEder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11143952600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel1"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@java"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-16T10:04:06.794Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "TC03 amazon java arama",
+        "description": "",
+        "id": "us1001-amazon-arama;tc03-amazon-java-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 8851968300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6728000200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5132008600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Ipad icin arama yapar",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.ipad_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243993400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "sonucun Ipad icerdigini test eder",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.sonucun_ipad_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10675141800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel1"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@Ipad"
+          }
+        ]
+      }
+    ],
+    "name": "US1001 amazon arama",
+    "description": "",
+    "id": "us1001-amazon-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1001_amazonArama.feature",
+    "tags": [
+      {
+        "name": "@Paralel1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-16T10:04:38.531Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC07 istenen kelimenin oldugunu test etme",
+        "description": "",
+        "id": "us1003-kullanici-istegi-kelime-icin-arama-yapip-sonucu-test-eder;tc07-istenen-kelimenin-oldugunu-test-etme",
+        "after": [
+          {
+            "result": {
+              "duration": 8439820700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6329002500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"amazonUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefination.amazonStepDefination.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6850998000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"armut\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"armut\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefination.amazonStepDefination.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1720001400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sonucun \"armut\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"armut\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefination.amazonStepDefination.sonucunIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10439866200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel1"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@dynamic"
+          }
+        ]
+      }
+    ],
+    "name": "US1003 kullanici istegi kelime icin arama yapip,sonucu test eder",
+    "description": "",
+    "id": "us1003-kullanici-istegi-kelime-icin-arama-yapip-sonucu-test-eder",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1003_AmazonParametreliArama.feature",
+    "tags": [
+      {
+        "name": "@Paralel1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-16T10:05:12.330Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC17 positive login testi",
+        "description": "",
+        "id": "feature:us1011-kullanici-dogru-bilgilerle-sayfaya-girebilmeli;tc17-positive-login-testi",
+        "after": [
+          {
+            "result": {
+              "duration": 10070261400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefination.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5981685500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"CHQAUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHQAUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefination.amazonStepDefination.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 952001700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "CH login linkine tiklar",
+            "match": {
+              "location": "stepdefination.CHQAStepDefinations.ch_login_linkine_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2455001300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "CH username kutusuna \"manager\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefination.CHQAStepDefinations.ch_username_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204000900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "CH password kutusuna \"Manager1!\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefination.CHQAStepDefinations.ch_password_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6273719800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "CH login butonuna basar",
+            "match": {
+              "location": "stepdefination.CHQAStepDefinations.ch_login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203016600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sayfaya giris yaptigini kontrol eder",
+            "match": {
+              "location": "stepdefination.CHQAStepDefinations.sayfayaGirisYaptiginiKontrolEder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10578945100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefination.amazonStepDefination.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel1"
+          },
+          {
+            "name": "@CH1"
+          }
+        ]
+      }
+    ],
+    "name": "Feature:US1011 kullanici dogru bilgilerle sayfaya girebilmeli",
+    "description": "",
+    "id": "feature:us1011-kullanici-dogru-bilgilerle-sayfaya-girebilmeli",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1011_CHPositiveLogintestti.feature",
+    "tags": [
+      {
+        "name": "@Paralel1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

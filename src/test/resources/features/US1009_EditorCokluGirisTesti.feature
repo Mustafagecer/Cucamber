@@ -1,3 +1,4 @@
+@Paralel2
 Feature: US1009 editor sayfasinda giris yapilabildigini test et
 @editor3
   Scenario Outline: TC13 Edito sayfasina farkli kisiler ekleme

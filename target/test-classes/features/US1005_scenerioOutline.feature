@@ -1,3 +1,4 @@
+@Paralel2
 Feature: US1005 amazomda liste ile arama
 
   @amazon @list

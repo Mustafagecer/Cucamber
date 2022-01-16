@@ -1,0 +1,12 @@
+stepdefination\Editor\datatableStepDefination.class
+stepdefination\amazonStepDefination.class
+pages\AmazonPage.class
+runners\ParalelTestRunner1.class
+runners\Runner.class
+utilities\Driver.class
+stepdefination\Hooks.class
+pages\EditorPage.class
+stepdefination\CHQAStepDefinations.class
+pages\CHQAPage.class
+utilities\ConfigReader.class
+runners\ParalelTestRunner2.class

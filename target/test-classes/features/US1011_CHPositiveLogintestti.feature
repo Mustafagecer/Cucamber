@@ -1,3 +1,4 @@
+@Paralel1
 Feature: Feature:US1011 kullanici dogru bilgilerle sayfaya girebilmeli
 
   @CH1

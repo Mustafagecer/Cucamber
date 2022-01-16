@@ -1,3 +1,4 @@
+
 Feature: US1004 ebay sayfasinda kelime arama
 
   Scenario: TC08 kullaci bestbuyda istedigi kelimeyi aratip test eder

@@ -1,9 +1,10 @@
+@Paralel2
 Feature: US1007_kullanici_data_ekleyebilmeli
 
   @editor @rapor
   Scenario Outline:TC11 Edito sayfasina farkli kisiler ekleme
 
-    Given kullanici "editoeUrl" sayfasina gider
+    Given kullanici "editorUrl" sayfasina gider
     Then new butonuna basar
     And editor firstname kutusuna "<firstName>" bilgileri girer
     And editor lastname kutusuna "<lastName>" bilgileri girer
