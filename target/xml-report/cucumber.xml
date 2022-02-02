@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="37.694">
+    <testcase classname="US1010 test failed olursa screen shot calismali" name="TC14 Amazon test" time="14.422">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[When kullanici "amazonUrl" sayfasina gider..................................passed
+Then basligin "amazon" icerdigini test eder.................................failed
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefination.amazonStepDefination.basliginIcerdiginiTestEder(amazonStepDefination.java:84)
+	at ✽.basligin "amazon" icerdigini test eder(file:///C:/Users/Acer/IdeaProjects/com.batch30Cucumber/src/test/resources/features/US1010.screenShot.feature:6)
+]]></failure>
+    </testcase>
+    <testcase classname="US1010 test failed olursa screen shot calismali" name="TC15 techproeducation test" time="13.107">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[When kullanici "techproeducationUrl" sayfasina gider........................passed
+Then basligin "techproeducation" icerdigini test eder.......................failed
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefination.amazonStepDefination.basliginIcerdiginiTestEder(amazonStepDefination.java:84)
+	at ✽.basligin "techproeducation" icerdigini test eder(file:///C:/Users/Acer/IdeaProjects/com.batch30Cucumber/src/test/resources/features/US1010.screenShot.feature:11)
+]]></failure>
+    </testcase>
+    <testcase classname="US1010 test failed olursa screen shot calismali" name="TC16 ebay test" time="9.016">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[When kullanici "ebayUrl" sayfasina gider....................................passed
+Then basligin "ebay" icerdigini test eder...................................failed
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefination.amazonStepDefination.basliginIcerdiginiTestEder(amazonStepDefination.java:84)
+	at ✽.basligin "ebay" icerdigini test eder(file:///C:/Users/Acer/IdeaProjects/com.batch30Cucumber/src/test/resources/features/US1010.screenShot.feature:16)
+]]></failure>
+    </testcase>
+</testsuite>
