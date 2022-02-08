@@ -1,45 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="37.694">
-    <testcase classname="US1010 test failed olursa screen shot calismali" name="TC14 Amazon test" time="14.422">
-        <failure message="" type="java.lang.AssertionError"><![CDATA[When kullanici "amazonUrl" sayfasina gider..................................passed
-Then basligin "amazon" icerdigini test eder.................................failed
-And sayfayi kapatir.........................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefination.amazonStepDefination.basliginIcerdiginiTestEder(amazonStepDefination.java:84)
-	at ✽.basligin "amazon" icerdigini test eder(file:///C:/Users/Acer/IdeaProjects/com.batch30Cucumber/src/test/resources/features/US1010.screenShot.feature:6)
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="95.414">
+    <testcase classname="US1009 editor sayfasinda giris yapilabildigini test et" name="TC13 Edito sayfasina farkli kisiler ekleme" time="39.07">
+        <system-out><![CDATA[Given kullanici "editorUrl" sayfasina gider.................................passed
+Then new butonuna basar.....................................................passed
+And editor firstname kutusuna "Hakan" bilgileri girer.......................passed
+And editor lastname kutusuna "Tetik" bilgileri girer........................passed
+And editor position kutusuna "TestLead" bilgileri girer.....................passed
+And editor office kutusuna "Paris" bilgileri girer..........................passed
+And editor extension kutusuna "ali" bilgileri girer.........................passed
+And editor startdate kutusuna "2021-01-21" bilgileri girer..................passed
+And editor salary kutusuna "60000" bilgileri girer..........................passed
+And Create tusuna basar.....................................................passed
+Then "Hakan" ve "Tetik" girerek kaydin tamamlandigini test eder.............passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="US1010 test failed olursa screen shot calismali" name="TC15 techproeducation test" time="13.107">
-        <failure message="" type="java.lang.AssertionError"><![CDATA[When kullanici "techproeducationUrl" sayfasina gider........................passed
-Then basligin "techproeducation" icerdigini test eder.......................failed
-And sayfayi kapatir.........................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefination.amazonStepDefination.basliginIcerdiginiTestEder(amazonStepDefination.java:84)
-	at ✽.basligin "techproeducation" icerdigini test eder(file:///C:/Users/Acer/IdeaProjects/com.batch30Cucumber/src/test/resources/features/US1010.screenShot.feature:11)
-]]></failure>
+    <testcase classname="US1009 editor sayfasinda giris yapilabildigini test et" name="TC13 Edito sayfasina farkli kisiler ekleme 2" time="27.904">
+        <system-out><![CDATA[Given kullanici "editorUrl" sayfasina gider.................................passed
+Then new butonuna basar.....................................................passed
+And editor firstname kutusuna "Murat" bilgileri girer.......................passed
+And editor lastname kutusuna "Ercoban" bilgileri girer......................passed
+And editor position kutusuna "QA" bilgileri girer...........................passed
+And editor office kutusuna "Kenya" bilgileri girer..........................passed
+And editor extension kutusuna "126" bilgileri girer.........................passed
+And editor startdate kutusuna "2021-01-20" bilgileri girer..................passed
+And editor salary kutusuna "40000" bilgileri girer..........................passed
+And Create tusuna basar.....................................................passed
+Then "Murat" ve "Ercoban" girerek kaydin tamamlandigini test eder...........passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="US1010 test failed olursa screen shot calismali" name="TC16 ebay test" time="9.016">
-        <failure message="" type="java.lang.AssertionError"><![CDATA[When kullanici "ebayUrl" sayfasina gider....................................passed
-Then basligin "ebay" icerdigini test eder...................................failed
-And sayfayi kapatir.........................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefination.amazonStepDefination.basliginIcerdiginiTestEder(amazonStepDefination.java:84)
-	at ✽.basligin "ebay" icerdigini test eder(file:///C:/Users/Acer/IdeaProjects/com.batch30Cucumber/src/test/resources/features/US1010.screenShot.feature:16)
-]]></failure>
+    <testcase classname="US1009 editor sayfasinda giris yapilabildigini test et" name="TC13 Edito sayfasina farkli kisiler ekleme 3" time="27.775">
+        <system-out><![CDATA[Given kullanici "editorUrl" sayfasina gider.................................passed
+Then new butonuna basar.....................................................passed
+And editor firstname kutusuna "Furkan" bilgileri girer......................passed
+And editor lastname kutusuna "Yilmaz" bilgileri girer.......................passed
+And editor position kutusuna "QA" bilgileri girer...........................passed
+And editor office kutusuna "Adana" bilgileri girer..........................passed
+And editor extension kutusuna "130" bilgileri girer.........................passed
+And editor startdate kutusuna "2021-03-21" bilgileri girer..................passed
+And editor salary kutusuna "80000" bilgileri girer..........................passed
+And Create tusuna basar.....................................................passed
+Then "Furkan" ve "Yilmaz" girerek kaydin tamamlandigini test eder...........passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
     </testcase>
 </testsuite>

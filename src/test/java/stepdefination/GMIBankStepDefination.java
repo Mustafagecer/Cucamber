@@ -57,4 +57,6 @@ public class GMIBankStepDefination {
 
         Assert.assertFalse("The new costumer is not ceated",gmiEmployeeDefaultPage.ssnBox1.isEnabled());
     }
+
+
 }

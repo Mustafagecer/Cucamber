@@ -16,7 +16,7 @@ Feature: US1009 editor sayfasinda giris yapilabildigini test et
     Then "<firstName>" ve "<lastName>" girerek kaydin tamamlandigini test eder
     And sayfayi kapatir
 
-    Examples:
+
     Examples:
       |firstName| lastName|position|office|extension|startDate|salary|
       |Hakan    |Tetik    |TestLead|Paris |ali      |2021-01-21|60000|

@@ -6,6 +6,6 @@ Feature: US1012 Create a Customer with Employee profile
     And User clicks on Manage Customer under My Operation
     And User clicks on Create a new Customer
     And User enters all requires fields and click Save
-    Then verify customer is created
+    Then verify customer is createdt
 
 

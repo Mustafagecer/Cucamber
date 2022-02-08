@@ -6,12 +6,15 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin={"html:target\\cucumber-reports.html",
+        plugin={
+                "pretty",
+                "html:target\\cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml" },
+                "junit:target/xml-report/cucumber.xml",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         features = "src/test/resources/features",
-        glue = "stepdefination",
-        tags = "@screenshot" ,
+        glue = {"stepdefination","Hooks"},
+        tags = "@editor3" ,
 
         dryRun = false
         //dryRun=true dedigimizde testi calistirmadan bize eksik adimi verir
